@@ -20,6 +20,7 @@
   [app] (rapidsvn)
   [app] (filezilla)
   [app] (leafpad)
+  [app] (geany)
 [end]
 [group] (workspace=[current])
   [app] (name=Navigator)
