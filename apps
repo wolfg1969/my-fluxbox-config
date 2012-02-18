@@ -1,0 +1,36 @@
+[app] (name=fbrun)
+  [Position]	(WINCENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (pin2desktop)
+  [Sticky]	{yes}
+  [Layer]	{12}
+  [Hidden]	{yes}
+  [Dimensions]	{500 330}
+  [Position]	{0 420}
+  [Deco]	{0x1c0}
+[end]
+[app] (Conky)
+  [Hidden] {yes}
+  [Layer]	{12}
+  [Sticky]	{yes}
+[end]
+[group] (workspace=[current])
+  [app] (meld)
+  [app] (rapidsvn)
+  [app] (filezilla)
+  [app] (leafpad)
+[end]
+[group] (workspace=[current])
+  [app] (name=Navigator)
+  [app] (name=google-chrome)
+  [app] (name=midori)
+[end]
+[group] (workspace=[current])
+  [app] (class=jetbrains-idea-ce"
+[end]
+[group] (workspace=[current])
+  [app] (name=urxvt)
+  [app] (class=XTerm)
+  [app] (class=Terminal)
+[end]

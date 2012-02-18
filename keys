@@ -11,6 +11,8 @@ OnDesktop Mouse5 :NextWorkspace
 OnToolbar Mouse4 :PrevWindow {static groups} (iconhidden=no)
 OnToolbar Mouse5 :NextWindow {static groups} (iconhidden=no)
 
+OnToolbar Control Mouse1 :ShowDesktop
+
 # alt + left/right click to move/resize a window
 OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
 OnWindowBorder Move1 :StartMoving
