@@ -27,6 +27,7 @@
       [exec] (rapidsvn) {rapidsvn} </usr/share/pixmaps/rapidsvn.ico>
       [exec] (filezilla) {filezilla} </usr/share/pixmaps/filezilla.png>
       [exec] (virtualbox) {VirtualBox} </usr/share/icons/hicolor/128x128/apps/virtualbox-bin.png>
+      [exec] (exaile) {exaile} </usr/share/pixmaps/exaile.png>
       [exec]   (Run) {fbrun } 
 [submenu] (Terminals)
       [exec]   (xterm) {xterm} </usr/share/pixmaps/xterm-color_48x48.xpm>
