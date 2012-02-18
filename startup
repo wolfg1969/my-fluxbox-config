@@ -1,0 +1,51 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "/home/guoyong/.Xmodmap"
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+
+conky -d &
+
+# screensaver
+pgrep xscreensaver && kill `pgrep xscreensaver`
+xscreensaver -no-splash &
+
+# ibus-daemon
+pgrep ibus-daemon && kill `pgrep ibus-daemon`
+ibus-daemon --xim &
+
+# wicd-gtk
+pgrep wicd-gtk && kill `pgrep wicd-gtk`
+wicd-gtk &
+
+# xfce4 power manager
+pgrep xfce4-power-manager && kill `pgrep xfce4-power-manager`
+xfce4-power-manager &
+
+#Eterm --name pin2desktop &
+#xfterm4 --hide-menubar --hide-borders --hide-toolbars --title=pin2desktop &
+#aterm -name aterm -sl 3000 -tr +sb -si -sk -sh 95 -fn -misc-fixed-bold-r-normal--18-120-100-100-c-90-iso10646-1 -g 80x25+0-0 -bl &
+urxvt -tr +sb -sk -sl 3000 -sh 95 -si -geometry 80x25+0-0 -name "pin2desktop" &
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/guoyong/.fluxbox/log"
+
+# Set a random image as my wallpapera
+# use overlay to set wallpaper
+#fbsetbg -R /home/guoyong/Pictures/wallpapers
+
