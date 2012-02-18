@@ -29,6 +29,8 @@
       [exec] (virtualbox) {VirtualBox} </usr/share/icons/hicolor/128x128/apps/virtualbox-bin.png>
       [exec] (exaile) {exaile} </usr/share/pixmaps/exaile.png>
       [exec]   (Run) {fbrun } 
+      [exec]   (Restart) {gksudo 'shutdown -r now'}
+      [exec]   (Shutdown) {gksudo 'shutdown -h now'}
 [submenu] (Terminals)
       [exec]   (xterm) {xterm} </usr/share/pixmaps/xterm-color_48x48.xpm>
       [exec]   (urxvt) {urxvt} 
