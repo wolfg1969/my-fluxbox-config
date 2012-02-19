@@ -22,9 +22,10 @@
       [exec] (midori) {midori} </usr/share/icons/hicolor/32x32/apps/midori.png>
       [exec] (leafpad) {leafpad}  </usr/share/pixmaps/leafpad.png>
       [exec] (geany) {geany} </usr/share/icons/hicolor/48x48/apps/geany.png>
+      [exec] (spe) {spe} </usr/share/pixmaps/spe.png>
       [exec] (idea) {/opt/idea-IC/bin/idea.sh} </opt/idea-IC/bin/idea_CE48.png>
       [exec] (meld) {meld} </usr/share/icons/hicolor/32x32/apps/meld.png>
-      [exec] (rapidsvn) {rapidsvn} </usr/share/pixmaps/rapidsvn.ico>
+      [exec] (rapidsvn) {rapidsvn} </usr/share/pixmaps/rapidsvn.xpm>
       [exec] (filezilla) {filezilla} </usr/share/pixmaps/filezilla.png>
       [exec] (virtualbox) {VirtualBox} </usr/share/icons/hicolor/128x128/apps/virtualbox-bin.png>
       [exec] (exaile) {exaile} </usr/share/pixmaps/exaile.png>
