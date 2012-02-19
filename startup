@@ -33,6 +33,9 @@ wicd-gtk &
 pgrep xfce4-power-manager && kill `pgrep xfce4-power-manager`
 xfce4-power-manager &
 
+# xfce4 clipboard manager
+xfce4-clipman &
+
 #Eterm --name pin2desktop &
 #xfterm4 --hide-menubar --hide-borders --hide-toolbars --title=pin2desktop &
 #aterm -name aterm -sl 3000 -tr +sb -si -sk -sh 95 -fn -misc-fixed-bold-r-normal--18-120-100-100-c-90-iso10646-1 -g 80x25+0-0 -bl &
