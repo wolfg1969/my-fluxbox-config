@@ -5,6 +5,8 @@ background: none
 
 !*.font: WenQuanYi Zen Hei-9:bold
 window.font: WenQuanYi Zen Hei-9:bold
-window.label.focus.font: WenQuanYi Zen Hei-9:bold
-toolbar.iconbar.focused.font: WenQuanYi Zen Hei-9:bold
-toolbar.iconbar.unfocused.font: WenQuanYi Zen Hei-9:bold
+window.label.*.font: WenQuanYi Zen Hei-9:bold
+!window.label.focus.font: WenQuanYi Zen Hei-9:bold
+toolbar.iconbar.*.font: WenQuanYi Zen Hei-9:bold
+!toolbar.iconbar.focused.font: WenQuanYi Zen Hei-9:bold
+!toolbar.iconbar.unfocused.font: WenQuanYi Zen Hei-9:bold
