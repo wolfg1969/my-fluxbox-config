@@ -25,6 +25,7 @@
       [exec] (geany) {geany} </usr/share/icons/hicolor/48x48/apps/geany.png>
       [exec] (spe) {spe} </usr/share/pixmaps/spe.png>
       [exec] (idea) {/opt/idea-IC/bin/idea.sh} </opt/idea-IC/bin/idea_CE48.png>
+      [exec] (mat) {/opt/mat/MemoryAnalyzer}
       [exec] (meld) {meld} </usr/share/icons/hicolor/32x32/apps/meld.png>
       [exec] (rapidsvn) {rapidsvn} </usr/share/pixmaps/rapidsvn.xpm>
       [exec] (filezilla) {filezilla} </usr/share/pixmaps/filezilla.png>
