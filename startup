@@ -29,8 +29,9 @@ pgrep xscreensaver && kill `pgrep xscreensaver`
 xscreensaver -no-splash &
 
 # ibus-daemon
-pgrep ibus-daemon && kill `pgrep ibus-daemon`
-ibus-daemon --xim &
+#pgrep ibus-daemon && kill `pgrep ibus-daemon`
+#ibus-daemon --xim &
+fcitx -d -r
 
 # wicd-gtk
 pgrep wicd-gtk && kill `pgrep wicd-gtk`
