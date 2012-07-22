@@ -13,9 +13,16 @@ xmodmap "/home/guoyong/.Xmodmap"
 # unclutter -idle 2 &
 # wmnd &
 # wmsmixer -w &
-# idesk &
+wmSun &
+wmwifi &
+wmMoonClock &
+wmweather &
+wmcpuload &
+wmnd &
+wmclock &
+idesk &
 
-conky -d &
+#conky -d &
 
 # screensaver
 pgrep xscreensaver && kill `pgrep xscreensaver`
@@ -50,5 +57,5 @@ exec fluxbox
 
 # Set a random image as my wallpapera
 # use overlay to set wallpaper
-#fbsetbg -R /home/guoyong/Pictures/wallpapers
+fbsetbg -R /home/guoyong/Pictures/wallpapers
 
