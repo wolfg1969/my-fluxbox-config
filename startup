@@ -35,7 +35,7 @@ fcitx -d -r
 
 # wicd-gtk
 pgrep wicd-gtk && kill `pgrep wicd-gtk`
-wicd-gtk &
+wicd-gtk -t &
 
 # xfce4 power manager
 pgrep xfce4-power-manager && kill `pgrep xfce4-power-manager`
