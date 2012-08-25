@@ -20,6 +20,7 @@
       [exec] (firefox) {firefox} </usr/share/icons/hicolor/128x128/apps/firefox.png>
       [exec] (chrome) {google-chrome} </usr/share/icons/hicolor/32x32/apps/google-chrome.png>
       [exec] (midori) {midori} </usr/share/icons/hicolor/32x32/apps/midori.png>
+      [exec] (sublime) {sublime} </home/guoyong/opt/Sublime_Text_2/Icon/16x16/sublime_text.png>
       [exec] (leafpad) {leafpad}  </usr/share/pixmaps/leafpad.png>
       [exec] (gvim) {gvim} </usr/share/pixmaps/gvim.xpm>
       [exec] (geany) {geany} </usr/share/icons/hicolor/48x48/apps/geany.png>

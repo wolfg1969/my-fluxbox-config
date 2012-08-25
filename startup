@@ -14,7 +14,7 @@ xmodmap "/home/guoyong/.Xmodmap"
 # wmnd &
 # wmsmixer -w &
 wmSun -td 0 &
-wmwifi &
+#wmwifi &
 wmMoonClock &
 wmweather &
 wmcpuload &
