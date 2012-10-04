@@ -19,19 +19,20 @@
       [exec] (urxvt) {urxvt} </usr/share/pixmaps/terminal.xpm> 
       [exec] (firefox) {firefox} </usr/share/icons/hicolor/128x128/apps/firefox.png>
       [exec] (chrome) {google-chrome} </usr/share/icons/hicolor/32x32/apps/google-chrome.png>
-      [exec] (midori) {midori} </usr/share/icons/hicolor/32x32/apps/midori.png>
-      [exec] (sublime) {sublime} </home/guoyong/opt/Sublime_Text_2/Icon/16x16/sublime_text.png>
-      [exec] (leafpad) {leafpad}  </usr/share/pixmaps/leafpad.png>
+      #[exec] (midori) {midori} </usr/share/icons/hicolor/32x32/apps/midori.png>
+      [exec] (arduino) {sudo chmod 775 /var/lock && arduino}
+      #[exec] (sublime) {sublime} </home/guoyong/opt/Sublime_Text_2/Icon/16x16/sublime_text.png>
+      #[exec] (leafpad) {leafpad}  </usr/share/pixmaps/leafpad.png>
       [exec] (gvim) {gvim} </usr/share/pixmaps/gvim.xpm>
-      [exec] (geany) {geany} </usr/share/icons/hicolor/48x48/apps/geany.png>
-      [exec] (spe) {spe} </usr/share/pixmaps/spe.png>
+      #[exec] (geany) {geany} </usr/share/icons/hicolor/48x48/apps/geany.png>
+      #[exec] (spe) {spe} </usr/share/pixmaps/spe.png>
       [exec] (idea) {/opt/idea-IC/bin/idea.sh} </opt/idea-IC/bin/idea_CE48.png>
-      [exec] (mat) {/opt/mat/MemoryAnalyzer}
+      #[exec] (mat) {/opt/mat/MemoryAnalyzer}
       [exec] (meld) {meld} </usr/share/icons/hicolor/32x32/apps/meld.png>
       [exec] (rapidsvn) {rapidsvn} </usr/share/pixmaps/rapidsvn.xpm>
       [exec] (filezilla) {filezilla} </usr/share/pixmaps/filezilla.png>
       [exec] (virtualbox) {VirtualBox} </usr/share/icons/hicolor/128x128/apps/virtualbox-bin.png>
-      [exec] (exaile) {exaile} </usr/share/pixmaps/exaile.png>
+      #[exec] (exaile) {exaile} </usr/share/pixmaps/exaile.png>
       [exec]   (Run) {fbrun } 
       [exec]   (Restart) {gksudo 'shutdown -r now'}
       [exec]   (Shutdown) {gksudo 'shutdown -h now'}
