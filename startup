@@ -55,8 +55,5 @@ exec fluxbox
 # use overlay to set wallpaper
 ## fbsetbg -R ~/Pictures/wallpapers
 
-# douban-fmd
-python ~/git-repos/fmbox/douban-fmd/server.py
-
 
 
