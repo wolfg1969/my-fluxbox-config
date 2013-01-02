@@ -14,10 +14,10 @@
 # wmsmixer -w &
 #wmSun -td 0 &
 #wmwifi &
-wmMoonClock &
-wmweather &
+wmMoonClock -lat 39.87 -lon 116.26 &
+wmweather --lcd --time=+0800 --station=ZBAA --metric &
 wmcpuload &
-wmnd &
+#wmnd &
 wmclock &
 ## idesk &
 
@@ -54,4 +54,9 @@ exec fluxbox
 # Set a random image as my wallpapera
 # use overlay to set wallpaper
 ## fbsetbg -R ~/Pictures/wallpapers
+
+# douban-fmd
+python ~/gitr-repos/fmbox/douban-fmd/server.py
+
+
 
