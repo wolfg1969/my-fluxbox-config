@@ -154,7 +154,8 @@ Mod4 Print :ExecCommand import -frame -window $(xprop _NET_ACTIVE_WINDOW -root |
 ##160 :Exec xscreensaver-command -lock
 
 # XF86Sleep = 150
-XF86Sleep :Exec gksudo 'shutdown -h now'
+#XF86Sleep :Exec gksudo 'shutdown -h now'
+XF86Sleep :Exec xscreensaver-command -lock
 
 # XF86Calculator = 148
 XF86Calculator :Exec galculator

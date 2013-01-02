@@ -17,7 +17,7 @@
 wmMoonClock -lat 39.87 -lon 116.26 &
 wmweather --lcd --time=+0800 --station=ZBAA --metric &
 wmcpuload &
-#wmnd &
+#wmnd & # too much cup usage
 wmclock &
 ## idesk &
 
@@ -27,21 +27,11 @@ wmclock &
 pgrep xscreensaver && kill `pgrep xscreensaver`
 xscreensaver -no-splash &
 
-#export XMODIFIERS=@im=fcitx
-#export GTK_IM_MODULE=fcitx
-#export QT4_IM_MODULE=fcitx
 fcitx -d -r
 
-# wicd-gtk
-## pgrep wicd-gtk && kill `pgrep wicd-gtk`
-## wicd-gtk -t &
-
-# xfce4 power manager
-## pgrep xfce4-power-manager && kill `pgrep xfce4-power-manager`
-## xfce4-power-manager &
-
-# xfce4 clipboard manager
-## xfce4-clipman &
+# wpa_gui
+pgrep wpa_gui && kill `pgrep wpa_gui`
+wpa_gui -t &
 
 #Eterm --name pin2desktop &
 #xfterm4 --hide-menubar --hide-borders --hide-toolbars --title=pin2desktop &
