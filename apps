@@ -30,8 +30,8 @@
 #[group] (workspace=[current])
 #  [app] (class=jetbrains-idea-ce)
 #[end]
-#[group] (workspace=[current])
-#  [app] (name=urxvt)
-#  [app] (class=XTerm)
-#  [app] (class=Terminal)
-#[end]
+[group] (workspace=[current])
+  [app] (class=XTerm)
+  [app] (class=Terminal)
+  [app] (lxterminal)
+[end]
