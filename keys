@@ -71,7 +71,7 @@ Mod1 F3 :Exec midori
 # XF86AudioRaiseVolume = 123
 XF86AudioRaiseVolume :Exec amixer sset Master,0 4096+
 # XF86AudioLowerVolume = 122
-XFAudioLowerVolume :Exec amixer sset Master,0 4096-
+XF86AudioLowerVolume :Exec amixer sset Master,0 4096-
 # XF86AudioMute = 121
 XF86AudioMute :Exec amixer sset Master,0 toggle
 # XF86AudioPlay = 172
