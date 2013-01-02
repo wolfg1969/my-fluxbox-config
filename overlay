@@ -1,12 +1,4 @@
 ! The following line will prevent styles from setting the background.
-background: none
-!background: random
-!background.pixmap: /home/guoyong/Pictures/wallpapers/
+!background: none
 
-!*.font: WenQuanYi Zen Hei-9:bold
-window.font: WenQuanYi Zen Hei-9:bold
-window.label.*.font: WenQuanYi Zen Hei-9:bold
-!window.label.focus.font: WenQuanYi Zen Hei-9:bold
-toolbar.iconbar.*.font: WenQuanYi Zen Hei-9:bold
-!toolbar.iconbar.focused.font: WenQuanYi Zen Hei-9:bold
-!toolbar.iconbar.unfocused.font: WenQuanYi Zen Hei-9:bold
+background.pixmap: ~/.fluxbox/raspberrypi-background.png

@@ -1,0 +1,18 @@
+# my Fluxbox Menu Items
+
+[exec] (terminal) {lxterminal} </usr/share/pixmaps/lxterminal.xpm> 
+[exec] (vim) {lxterminal -e vim}
+[nop] (--------)
+[exec] (midori) {midori} </usr/share/icons/hicolor/16x16/apps/midori.png>
+[exec] (arduino) {sudo chmod 775 /var/lock && arduino} </usr/share/pixmaps/arduino.xpm>
+[exec] (leafpad) {leafpad}  </usr/share/pixmaps/leafpad.xpm>
+[exec] (geany) {geany} </usr/share/pixmaps/geany.xpm>
+[nop] (--------)
+[exec] (gimp) {gimp} </usr/share/pixmaps/gimp.xpm>
+[exec] (alsamixer) {lxterminal -e alsamixer}
+[nop] (--------)
+[exec] (Run) {fbrun } 
+[exec] (Restart) {gksudo 'shutdown -r now'}
+[exec] (Shutdown) {gksudo 'shutdown -h now'}
+[nop] (--------)
+
