@@ -56,7 +56,7 @@ exec fluxbox
 ## fbsetbg -R ~/Pictures/wallpapers
 
 # douban-fmd
-python ~/gitr-repos/fmbox/douban-fmd/server.py
+python ~/git-repos/fmbox/douban-fmd/server.py
 
 
 
