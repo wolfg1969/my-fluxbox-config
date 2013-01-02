@@ -15,23 +15,23 @@
   [Layer]	{12}
   [Sticky]	{yes}
 [end]
-[group] (workspace=[current])
-  [app] (meld)
-  [app] (rapidsvn)
-  [app] (filezilla)
-  [app] (leafpad)
-  [app] (geany)
-[end]
-[group] (workspace=[current])
-  [app] (name=Navigator)
-  [app] (name=google-chrome)
-  [app] (name=midori)
-[end]
+#[group] (workspace=[current])
+#  [app] (meld)
+#  [app] (rapidsvn)
+#  [app] (filezilla)
+#  [app] (leafpad)
+#  [app] (geany)
+#[end]
+#[group] (workspace=[current])
+#  [app] (name=Navigator)
+#  [app] (name=google-chrome)
+#  [app] (name=midori)
+#[end]
 #[group] (workspace=[current])
 #  [app] (class=jetbrains-idea-ce)
 #[end]
-[group] (workspace=[current])
-  [app] (name=urxvt)
-  [app] (class=XTerm)
-  [app] (class=Terminal)
-[end]
+#[group] (workspace=[current])
+#  [app] (name=urxvt)
+#  [app] (class=XTerm)
+#  [app] (class=Terminal)
+#[end]
