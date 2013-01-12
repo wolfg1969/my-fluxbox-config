@@ -9,3 +9,5 @@ window.label.*.font: WenQuanYi Zen Hei-9:bold
 toolbar.iconbar.*.font: WenQuanYi Zen Hei-9:bold
 !toolbar.iconbar.focused.font: WenQuanYi Zen Hei-9:bold
 !toolbar.iconbar.unfocused.font: WenQuanYi Zen Hei-9:bold
+menu.title.font: WenQuanYi Zen Hei-8:bold
+menu.frame.font: WenQuanYi Zen Hei-8

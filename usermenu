@@ -12,7 +12,7 @@
 [exec] (alsamixer) {lxterminal -e alsamixer}
 [nop] (--------)
 [exec] (Run) {fbrun } 
-[exec] (Restart) {gksudo 'shutdown -r now'}
-[exec] (Shutdown) {gksudo 'shutdown -h now'}
+[exec] (Restart computer) {gksudo 'shutdown -r now'}
+[exec] (Shutdown computer) {gksudo 'shutdown -h now'}
 [nop] (--------)
 
